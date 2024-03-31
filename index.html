@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Star Wars Census</title>
 </head>
 <body>
-  
+  <div>
+    <input type="text" id="search-box">
+    <button onclick="getData(null)">Buscar</button>
+  </div>
+
+  <lu id="planets-container">
+  </lu>
+
+  <div id="show-results">
+  </div>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Data de nascimento</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+
+    </tbody>
+  </table>
 </body>
+<script src="script.js"></script>
 </html>
