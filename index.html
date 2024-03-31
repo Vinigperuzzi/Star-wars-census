@@ -4,30 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Star Wars Census</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
+  <div style="display: flex; justify-content: center;">
     <input type="text" id="search-box">
     <button onclick="getData(null)">Buscar</button>
   </div>
 
-  <lu id="planets-container">
-  </lu>
-
-  <div id="show-results">
+  <div>
+    <lu id="planets-container">
+    </lu>
   </div>
 
-  <table border="1">
-    <thead>
-      <tr>
-        <th>Nome</th>
-        <th>Data de nascimento</th>
-      </tr>
-    </thead>
-    <tbody id="table-body">
+  <div id="show-results" style="display: flex; justify-content: center;">
+  </div>
 
-    </tbody>
-  </table>
+  <div id="table-results">
+    
+  </div>
 </body>
 <script src="script.js"></script>
 </html>
