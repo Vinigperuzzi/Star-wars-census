@@ -3,6 +3,7 @@ async function printData(){
   let result = await fetch('https://swapi.dev/api/planets/?format=json')
   let {results} = await result.json()
   console.log(results);
+  planetsDiv.innerHTML = "";
   results.forEach(planet => {
     let li = document.createElement('li');
     li.innerHTML = `<button onclick="getData('${planet['name']}')">${planet['name']}</button>`;
