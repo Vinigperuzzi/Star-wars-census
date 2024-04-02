@@ -1,6 +1,8 @@
 # Star Wars Challenge: Galactic Census 🎬🪐🤖⚔️
 Uncover the secrets of the galaxy far, far away with this interactive web application!
 
+Access in the [link](https://vinigperuzzi.github.io/Star-wars-census/)
+
 ***
 
 # Features:
