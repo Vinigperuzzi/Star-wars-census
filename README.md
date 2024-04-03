@@ -35,3 +35,6 @@ Star Wars API Documentation: https://swapi.dev/
 I hope you enjoy exploring the Star Wars galaxy!
 
 May the Force be with you!
+
+Happy Coding! 
+### Vinigperuzzi 🧙‍♂️
